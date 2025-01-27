@@ -1,0 +1,11 @@
+name: FishingAdditions
+version: '1.0-BUILD'
+main: dev.brianmartinm.fishingAdditions.FishingAdditions
+api-version: '1.21'
+description: 'A plugin intended to add many more possibilities to the fishing through the use of customizable crates and loot tables, all compatible with MythicMobs!'
+author: 'brianmartinm'
+commands:
+  givecrate:
+    description: 'Give a crate to yourself or another player.'
+    usage: '/givecrate <crate> [player]'
+    permission: fishingAdditions.givecrate

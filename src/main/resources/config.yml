@@ -1,0 +1,27 @@
+crates:
+  Common:
+    drop-chance: 0.5
+    loot:
+      item1:
+        type: vanilla
+        material: IRON_INGOT
+        amount: 3
+        chance: 0.6
+      item2:
+        type: vanilla
+        material: COAL
+        amount: 5
+        chance: 0.4
+  Rare:
+    drop-chance: 0.1
+    loot:
+#      item1:
+#        type: mythicmobs
+#        id: "SanguineCleaver" # MythicMobs item ID
+#        amount: 1
+#        chance: 0.3
+      item2:
+        type: vanilla
+        material: DIAMOND
+        amount: 2
+        chance: 0.7
